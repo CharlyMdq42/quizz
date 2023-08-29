@@ -1,0 +1,44 @@
+/*styles for startPage*/
+
+.App {
+  width:100%;
+  margin: 0;
+  padding:0px;
+  box-sizing:border-box;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .container{
+    width:400px;
+    height:700px;
+    background-color: rgb(209, 201, 201);
+    }
+
+  .frontPage {
+    margin-bottom: 150px;
+    text-align: center;
+    }
+
+  .text1 {
+    margin-bottom: 150px;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+    }
+
+    .start {
+      height: 50px ;
+      width: 100px;
+      font-size: 25px;
+      text-transform: uppercase;
+      display: block;
+      margin: 0 auto;
+      cursor:pointer;
+      }
+  
+  .start-button:hover {
+    background-color: #929eaa;
+  }
